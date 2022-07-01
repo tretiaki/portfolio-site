@@ -39,7 +39,6 @@ a {
 }
 .aboutMe-title {
   font-size: 80px;
-  margin: 0;
 }
 .aboutMe-paragraph {
   font-size: 25px;
@@ -49,7 +48,6 @@ a {
 
 .contactMe-mail {
   font-size: 45px;
-  margin: 20px;
 }
 .mail {
   text-decoration: none;
