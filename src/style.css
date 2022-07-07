@@ -68,3 +68,27 @@ a {
   background-color: white;
   transition: all 200ms ease-in-out;
 }
+@media (max-width: 760px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p,
+  .aboutMe-paragraph {
+    font-size: 20px;
+  }
+  .contactMe-mail {
+    font-size: 25px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+  .aboutMe-title {
+    font-size: 40px;
+  }
+  .images {
+    display: none;
+  }
+}
