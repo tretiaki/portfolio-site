@@ -1,5 +1,5 @@
 :root {
-  --main-color: #662eed;
+  --main-color: #5db08c;
 }
 
 .link {
@@ -68,7 +68,7 @@ a {
   background-color: white;
   transition: all 200ms ease-in-out;
 }
-@media (max-width: 760px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 30px;
   }
@@ -90,5 +90,26 @@ a {
   }
   .images {
     display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  p,
+  .aboutMe-paragraph {
+    font-size: 20px;
+  }
+  .contactMe-mail {
+    font-size: 35px;
+  }
+  .mail {
+    font-size: 25px;
+  }
+  .aboutMe-title {
+    font-size: 50px;
   }
 }
